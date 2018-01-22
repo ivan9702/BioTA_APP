@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="employee_input_buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:weightSum">4</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="image_button">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="margin_1x">5dp</dimen>
+    <dimen name="margin_2x">10dp</dimen>
+    <dimen name="margin_3x">15dp</dimen>
+    <dimen name="margin_4x">20dp</dimen>
+    <dimen name="margin_12x">60dp</dimen>
+    <dimen name="function_list_button_paddingTop">40dp</dimen>
+    <dimen name="gap_half">1dp</dimen>
+    <dimen name="gap_1x">2dp</dimen>
+    <dimen name="gap_2x">4dp</dimen>
+    <dimen name="fingerprint_image_border">10dp</dimen>
+    <dimen name="function_list_button_image_size">10dp</dimen>
+</resources>

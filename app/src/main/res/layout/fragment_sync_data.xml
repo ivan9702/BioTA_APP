@@ -1,0 +1,104 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_2x"
+    android:background="@drawable/background"
+    tools:context="com.startek.biota.app.fragments.SyncDataFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_2x">
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:src="@drawable/logo"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                style="@style/image_button"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:id="@+id/buttonBack"
+                    android:layout_marginRight="@dimen/margin_2x"
+                    android:src="@drawable/button_back"
+                    style="@style/image_button"/>
+
+                <Button
+                    android:id="@+id/buttonReload"
+                    android:text="@string/buttonReload"
+                    android:layout_marginRight="@dimen/margin_2x"
+                    android:paddingLeft="@dimen/margin_1x"
+                    android:paddingRight="@dimen/margin_1x"
+                    style="@style/navigation_button_green" />
+
+                <Button
+                    android:id="@+id/buttonSync"
+                    android:text="@string/buttonSync"
+                    style="@style/navigation_button_green" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!--ListView標頭-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/labelAction"
+                android:text="@string/labelAction2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/listview_header" />
+
+            <TextView
+                android:id="@+id/labelClassName"
+                android:text="@string/labelClassName"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/listview_header" />
+
+            <TextView
+                android:id="@+id/labelJson"
+                android:text="@string/labelJson"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                style="@style/listview_header" />
+
+            <TextView
+                android:id="@+id/labelState"
+                android:text="@string/labelState"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/listview_header" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:layout_height="0dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/listview_item"></ListView>
+    </LinearLayout>
+
+
+</FrameLayout>

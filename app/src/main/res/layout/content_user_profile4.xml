@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--指紋按鈕(左右手指總共10各)-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/labelFingerprint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginBottom="@dimen/margin_2x"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="left" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_2x">
+                <Button
+                    android:id="@+id/l_thumb"
+                    android:text="@string/buttonFinger1L"
+                    style="@style/user_profile4_button" />
+                <Button
+                    android:id="@+id/r_thumb"
+                    android:text="@string/buttonFinger1R"
+                    style="@style/user_profile4_button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_2x">
+                <Button
+                    android:id="@+id/l_index"
+                    android:text="@string/buttonFinger2L"
+                    style="@style/user_profile4_button" />
+                <Button
+                    android:id="@+id/r_index"
+                    android:text="@string/buttonFinger2R"
+                    style="@style/user_profile4_button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_2x">
+                <Button
+                    android:id="@+id/l_middle"
+                    android:text="@string/buttonFinger3L"
+                    style="@style/user_profile4_button" />
+                <Button
+                    android:id="@+id/r_middle"
+                    android:text="@string/buttonFinger3R"
+                    style="@style/user_profile4_button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_2x">
+                <Button
+                    android:id="@+id/l_ring"
+                    android:text="@string/buttonFinger4L"
+                    style="@style/user_profile4_button" />
+                <Button
+                    android:id="@+id/r_ring"
+                    android:text="@string/buttonFinger4R"
+                    style="@style/user_profile4_button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_2x">
+                <Button
+                    android:id="@+id/l_pinky"
+                    android:text="@string/buttonFinger5L"
+                    style="@style/user_profile4_button" />
+                <Button
+                    android:id="@+id/r_pinky"
+                    android:text="@string/buttonFinger5R"
+                    style="@style/user_profile4_button" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

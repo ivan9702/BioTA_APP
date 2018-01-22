@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/library-1.0.19_45bb7d64e059c322a65e89e8c47080217d132c0f.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.2/81d61b7f33ebeab314e07de0cc596f8e858d97/slf4j-api-1.7.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0081d61b7f33ebeab314e07de0cc596f8e858d97">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.2_a8547704dde6d49fdcb11424cc02fdf832e057ce.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/gson-2.4_a215c5157c1877dc34bb86f96ee773bd2cb428dc.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/cn.pedant.sweetalert-library-1.3_eeb08219e7fe2c8bde0b721e77eaa64ac06cdfd9.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/exploded-aar/com.mikhaellopez/circularimageview/3.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a8340f8c17337c864648c13abe1416d34c80ec14">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/com.mikhaellopez-circularimageview-3.0.2_830b8e7f4c9e8ee52bf52a0329ba630525cba9fd.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.5/7a15a7db50f86c4b64aa3367424a60e3a325b8f1/okhttp-2.7.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/okhttp-2.7.5_7bfac6066548fad967d436a76fd8715257f9e6e2.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_2318668ac9e6b13c0f7520308b5174335a0f94e0.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.48/e579bd2905d0399af5029aaaf9817d5fa0ca88a5/ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/ormlite-core-4.48_0b2a8995f3e90eb853fac4b0880ba77d8740d426.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/glide-3.7.0_0be32f51317184f542e032d6d20f28f8ce2ef1ee.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/exploded-aar/org.jdeferred/jdeferred-android-aar/1.2.4/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1b1184f71b541cafdfc46acc93986fc1bf9b440">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/org.jdeferred-jdeferred-android-aar-1.2.4_34d69c2a10672122e787ec9c90fca020ea76f7db.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/libs/mail.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/mail_2198406b45515e812e2b3a371a38b04fc3e2b83a.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.48/afa06f539a4026c10b247386312aa67404b80a16/ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/ormlite-android-4.48_d66ac2b7cf6e417c2469d7033f4188a038100b76.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.1_6c6a7ff412dc1ce4d616b378b0902788de6f2303.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c23708cdb9e80a144db433e23344a788a1fd6599">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/opencsv-2.3_5157352e6af7f5d2bd5764bfad55dcad328f0b60.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_8aa1f0dcf73394e563fd04bc26a7e843ca72f8e1.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/okio-1.6.0_c9418f1d68753cf34bf85e2bda2a8475289828cf.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/exploded-aar/net.zetetic/android-database-sqlcipher/3.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b994d51785427d2b8af9e1776b07ab712e9a5b2e">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/net.zetetic-android-database-sqlcipher-3.4.0_e2b8ea492d0a17f68d50c250533f83225c0587cc.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.7.5/b3ae78e05ff9fdb1788db2056b583281ef684277/okhttp-urlconnection-2.7.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b3ae78e05ff9fdb1788db2056b583281ef684277">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.7.5_5325581217144c5516608932440368e4f4ab4af9.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/libs/additionnal.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/additionnal_2308431d6dcbfb0306a5c92001970b12dc91c037.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.1_0d1872b3a2bd429c283ce864a257f3d4f0ff9ec0.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/exploded-aar/com.pnikosis/materialish-progress/1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/com.pnikosis-materialish-progress-1.0_c20a48c7e978f7388b5ca72ad2384029f6788c61.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/libs/activation.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/activation_4e9fa439ad2adbbf2a223489fd41f63ac9062feb.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/.gradle/caches/modules-2/files-2.1/org.jdeferred/jdeferred-core/1.2.4/8099d270647d1bc2eca30df57738cf8c05f8c524/jdeferred-core-1.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8099d270647d1bc2eca30df57738cf8c05f8c524">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/jdeferred-core-1.2.4_2db5fbab531211edec49d1c3647c2647c40ead7e.jar" />
+    </item>
+    <item
+        jar="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/exploded-aar/com.github.johnkil.android-appmsg/appmsg/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="398ec51345409df9e36a1de1a81f2b3ad5234bfb">
+        <dex dex="/Users/ivan.lin/Desktop/BioTA-APP-Android/app/build/intermediates/pre-dexed/debug/com.github.johnkil.android-appmsg-appmsg-1.2.0_453f5357a5c4724981690860874d29bc7a99e4e4.jar" />
+    </item>
+
+</items>

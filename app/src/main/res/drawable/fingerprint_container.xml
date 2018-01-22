@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    參考資料
+    http://stackoverflow.com/questions/1400782/android-scale-a-drawable-or-background-image
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@android:color/transparent"/>
+    <item>
+        <bitmap
+            android:scaleType="fitXY"
+            android:src="@drawable/fingerprint_container_bg" />
+    </item>
+
+</layer-list>

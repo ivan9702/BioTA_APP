@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startek.biota.app.widget.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_weight="1"
+    android:layout_marginLeft="@dimen/margin_2x"
+    android:layout_marginRight="@dimen/margin_2x"
+    android:layout_marginTop="@dimen/margin_2x">
+
+    <RelativeLayout
+        android:id="@+id/progressBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fingerprint_container"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textViewFingerprint"
+            android:text="@string/textViewFingerprint"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:indeterminate="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewFingerprint"
+        app:civ_border="true"
+        app:civ_border_color="@color/colorFingerprintBoder"
+        app:civ_border_width="@dimen/fingerprint_image_border"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</com.startek.biota.app.widget.SquareRelativeLayout>
+

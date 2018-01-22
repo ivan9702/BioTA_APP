@@ -1,0 +1,115 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.startek.biota.app.fragments.UserManagerFragment2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_2x">
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:src="@drawable/logo"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                style="@style/image_button"/>
+
+            <ImageView
+                android:id="@+id/buttonBack"
+                android:src="@drawable/button_back"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                style="@style/image_button"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_toStartOf="@+id/buttonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/buttonNext"
+                    android:text="@string/buttonNext"
+                    android:layout_marginRight="@dimen/margin_2x"
+                    android:paddingLeft="@dimen/margin_2x"
+                    android:paddingRight="@dimen/margin_2x"
+                    style="@style/navigation_button_green" />
+
+                <Button
+                    android:id="@+id/buttonEdit"
+                    android:text="@string/buttonEdit"
+                    android:layout_marginRight="@dimen/margin_2x"
+                    android:paddingLeft="@dimen/margin_2x"
+                    android:paddingRight="@dimen/margin_2x"
+                    style="@style/navigation_button_green" />
+
+                <Button
+                    android:id="@+id/buttonSave"
+                    android:text="@string/buttonSave"
+                    android:layout_marginRight="@dimen/margin_2x"
+                    style="@style/navigation_button_green" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/margin_1x"
+            android:layout_marginRight="@dimen/margin_1x"
+            android:layout_marginBottom="@dimen/margin_2x"
+            android:layout_weight="1">
+
+            <!--使用者基本資料-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="28"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_1x"
+                android:layout_marginRight="@dimen/margin_1x">
+                <include layout="@layout/content_user_profile3" />
+            </LinearLayout>
+
+            <!--指紋按鈕(左右手指總共10各)-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="32"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_1x"
+                android:layout_marginRight="@dimen/margin_1x">
+                <include layout="@layout/content_user_profile4" />
+            </LinearLayout>
+
+            <!--門禁卡管理-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_1x"
+                android:layout_marginRight="@dimen/margin_1x">
+                <include layout="@layout/content_user_profile5" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

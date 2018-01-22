@@ -1,0 +1,254 @@
+{
+  "UseBiotaServer": {
+    "order": 0,
+    "category": 4,
+    "signature": "UseBiotaServer",
+    "description": "連線伺服器",
+    "value": "true",
+    "editorType": 4,
+    "editorValues": "false,true"
+  },
+  "BaseUrl": {
+    "order": 1,
+    "category": 4,
+    "signature": "BaseUrl",
+    "description": "伺服器網址",
+    "value": "http://104.215.55.168:1337/api",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "WsAnnouncement": {
+    "order": 2,
+    "category": 4,
+    "signature": "WsAnnouncement",
+    "description": "系統公告 API",
+    "value": "/Info_list",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "WsReminder": {
+    "order": 3,
+    "category": 4,
+    "signature": "WsReminder",
+    "description": "提醒事項 API",
+    "value": "/Info_list",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "WsApDevice": {
+    "order": 4,
+    "category": 4,
+    "signature": "WsApDevice",
+    "description": "指紋採樣程式執行設備 API",
+    "value": "/Ds_fingerprint_ap",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "WsFingerprintDevice": {
+    "order": 5,
+    "category": 4,
+    "signature": "WsFingerprintDevice",
+    "description": "指紋機設備資料 API",
+    "value": "/Ds_fingerprint_device",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "WsHuman": {
+    "order": 6,
+    "category": 4,
+    "signature": "WsHuman",
+    "description": "人員資料 API",
+    "value": "/Ds_human",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "WsNfc": {
+    "order": 7,
+    "category": 4,
+    "signature": "WsNfc",
+    "description": "NFC資料 API",
+    "value": "/ds_nfc",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "WsFingerprint": {
+    "order": 8,
+    "category": 4,
+    "signature": "WsFingerprint",
+    "description": "Server 指紋資料管理 API",
+    "value": "/F_linked",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "WsMatchLog": {
+    "order": 9,
+    "category": 4,
+    "signature": "WsMatchLog",
+    "description": "Client 端比對指紋資料記錄 API",
+    "value": "/Comparison_client",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "EmailServer": {
+    "order": 10,
+    "category": 1,
+    "signature": "EmailServer",
+    "description": "SMTP Server",
+    "value": "ms.mailcloud.com.tw",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "EmailPort": {
+    "order": 11,
+    "category": 1,
+    "signature": "EmailPort",
+    "description": "SMTP Port",
+    "value": "25",
+    "editorType": 16,
+    "editorValues": null
+  },
+  "EmailAccount": {
+    "order": 12,
+    "category": 1,
+    "signature": "EmailAccount",
+    "description": "EmailAccount",
+    "value": "",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "EmailPassword": {
+    "order": 13,
+    "category": 1,
+    "signature": "EmailPassword",
+    "description": "EmailPassword",
+    "value": "",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "EmailSSL": {
+    "order": 14,
+    "category": 1,
+    "signature": "EmailSSL",
+    "description": "EmailSSL",
+    "value": "false",
+    "editorType": 4,
+    "editorValues": "false,true"
+  },
+  "EmailTarget": {
+    "order": 15,
+    "category": 1,
+    "signature": "EmailTarget",
+    "description": "郵件發送目的",
+    "value": "",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "EmailSubject": {
+    "order": 16,
+    "category": 1,
+    "signature": "EmailSubject",
+    "description": "郵件主旨",
+    "value": "[BioTA]{appname}_CSV_{date:yyyyMMdd}_{date:HH}",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "EmailBody": {
+    "order": 17,
+    "category": 1,
+    "signature": "EmailBody",
+    "description": "郵件內容",
+    "value": "",
+    "editorType": 1,
+    "editorValues": null
+  },
+  "EmailTimes": {
+    "order": 18,
+    "category": 1,
+    "signature": "EmailTimes",
+    "description": "郵件發送時間",
+    "value": "",
+    "editorType": 32,
+    "editorValues": "00:00,01:00,02:00,03:00,04:00,05:00,06:00,07:00,08:00,09:00,10:00,11:00,12:00,13:00,14:00,15:00,16:00,17:00,18:00,19:00,20:00,21:00,22:00,23:00"
+  },
+  "EmailAttachFileFormat": {
+    "order": 19,
+    "category": 1,
+    "signature": "EmailAttachFileFormat",
+    "description": "匯出格式",
+    "value": "csv",
+    "editorType": 4,
+    "editorValues": "csv"
+  },
+  "HideApiError": {
+    "order": 20,
+    "category": 8,
+    "signature": "HideApiError",
+    "description": "關閉API錯誤提示",
+    "value": "false",
+    "editorType": 4,
+    "editorValues": "false,true"
+  },
+  "NfcAlert": {
+    "order": 21,
+    "category": 8,
+    "signature": "NfcAlert",
+    "description": "顯示 NFC 警告訊息",
+    "value": "Y",
+    "editorType": 4,
+    "editorValues": "Y,N"
+  },
+  "CreateManagerIfNotExist": {
+    "order": 22,
+    "category": 8,
+    "signature": "CreateManagerIfNotExist",
+    "description": "提示需新增管理者後，導引至新增資料頁面",
+    "value": "N",
+    "editorType": 4,
+    "editorValues": "Y,N"
+  },
+  "MaxEmployeeIdLength": {
+    "order": 23,
+    "category": 8,
+    "signature": "MaxEmployeeIdLength",
+    "description": "工號長度",
+    "value": "4",
+    "editorType": 16,
+    "editorValues": null
+  },
+  "MaxNfcCount": {
+    "order": 24,
+    "category": 8,
+    "signature": "MaxNfcCount",
+    "description": "允許悠遊卡張數",
+    "value": "3",
+    "editorType": 16,
+    "editorValues": null
+  },
+  "VerifyTimeout": {
+    "order": 25,
+    "category": 8,
+    "signature": "VerifyTimeout",
+    "description": "指紋驗證逾時秒數",
+    "value": "15",
+    "editorType": 16,
+    "editorValues": null
+  },
+  "EnrollTimeout": {
+    "order": 25,
+    "category": 8,
+    "signature": "EnrollTimeout",
+    "description": "指紋建檔逾時秒數",
+    "value": "15",
+    "editorType": 16,
+    "editorValues": null
+  },
+  "VerifyScoreLimit": {
+    "order": 26,
+    "category": 8,
+    "signature": "VerifyScoreLimit",
+    "description": "指紋驗證分數下限",
+    "value": "1500",
+    "editorType": 16,
+    "editorValues": null
+  }
+}

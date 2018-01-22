@@ -1,0 +1,384 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="datetime">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--『設定畫面』的大按鈕-->
+    <style name="function_list_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_marginBottom">@dimen/gap_2x</item>
+        <item name="android:layout_marginLeft">@dimen/gap_1x</item>
+        <item name="android:layout_marginRight">@dimen/gap_1x</item>
+        <item name="android:paddingTop">@dimen/function_list_button_paddingTop</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--每個畫面上方的按鈕，例如：返回-->
+    <style name="navigation_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_centerVertical">true</item>
+        <!--<item name="android:textSize">@dimen/textsize_1x</item>-->
+    </style>
+
+    <style name="navigation_button_base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="navigation_button_green" parent="@style/navigation_button_base">
+        <item name="android:background">@drawable/navigation_button_background_green</item>
+    </style>
+
+    <!--每個畫面上方的搜尋欄-->
+    <style name="navigation_edittext">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">@dimen/margin_2x</item>
+        <item name="android:background">@drawable/textinputborder</item>
+    </style>
+
+    <style name="listview_header">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">@dimen/margin_2x</item>
+        <item name="android:paddingBottom">@dimen/margin_2x</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/listview_header</item>
+    </style>
+
+    <style name="listview_item">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:paddingTop">@dimen/margin_2x</item>
+        <item name="android:paddingBottom">@dimen/margin_2x</item>
+        <item name="android:background">@drawable/listview_item</item>
+    </style>
+
+    <!--個人基本資料(姓名，生日，...)對應的 table cell-->
+
+    <style name="user_profile3_header">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/listview_header</item>
+    </style>
+
+    <style name="user_profile3_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/listview_item</item>
+    </style>
+
+    <!--更新指紋的導引按鈕(10個)-->
+    <style name="user_profile4_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/margin_1x</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:background">@drawable/navigation_button_background_green</item>
+    </style>
+
+    <!--按鈕，用以新增 NFC 卡-->
+    <style name="user_profile5_buttonAdd">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_marginBottom">@dimen/margin_2x</item>
+        <item name="android:paddingTop">@dimen/margin_3x</item>
+        <item name="android:paddingBottom">@dimen/margin_3x</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/navigation_button_background_green</item>
+    </style>
+
+    <!--textview，用以顯示 NFC 的 tagId-->
+    <style name="user_profile5_tagId">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/margin_2x</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <!--按鈕，用以刪除對應 NFC 卡-->
+    <style name="user_profile5_buttonDelete">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_marginTop">@dimen/margin_2x</item>
+        <item name="android:layout_marginBottom">@dimen/margin_2x</item>
+        <item name="android:layout_marginRight">@dimen/margin_2x</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <!--<item name="android:background">@drawable/navigation_button_background_red</item>-->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="toggle_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">@dimen/margin_2x</item>
+        <item name="android:paddingRight">@dimen/margin_2x</item>
+        <item name="android:layout_marginBottom">@dimen/margin_2x</item>
+        <item name="android:background">@drawable/button_toggle_on</item>
+    </style>
+
+    <style name="toggle_button_small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">@dimen/gap_1x</item>
+        <item name="android:background">@drawable/button_toggle_on</item>
+    </style>
+
+    <!--指紋機資訊對應的 table cell-->
+    <style name="fingerprint_header">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/listview_header</item>
+    </style>
+
+    <style name="fingerprint_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/listview_item</item>
+    </style>
+
+    <style name="employee_input_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="employee_input_textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorEmployee</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="employee_input_buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:weightSum">4</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="employee_input_button1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorButton1</item>
+        <item name="android:layout_margin">@dimen/gap_1x</item>
+    </style>
+
+    <style name="employee_input_button2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorButton2</item>
+        <item name="android:layout_margin">@dimen/gap_1x</item>
+    </style>
+
+    <style name="user_profile1_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/colorNameAndDept</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="user_profile1_textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="user_profile2_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/margin_1x</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/titlebar_teamstatus</item>
+    </style>
+
+    <style name="reminder_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/margin_1x</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/titlebar_reminder</item>
+    </style>
+
+    <style name="reminder_listview_header">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:background">@color/colorLightBule1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">@dimen/margin_2x</item>
+        <item name="android:paddingBottom">@dimen/margin_2x</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="listview_item_login">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">@dimen/margin_1x</item>
+        <item name="android:paddingBottom">@dimen/margin_1x</item>
+        <item name="android:paddingLeft">@dimen/margin_1x</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="announcement_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/margin_1x</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/titlebar_announcement</item>
+    </style>
+
+    <style name="announcement_listview_header">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:background">@color/colorLightBule1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">@dimen/margin_2x</item>
+        <item name="android:paddingBottom">@dimen/margin_2x</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="announcement_listview_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">@dimen/margin_1x</item>
+        <item name="android:paddingBottom">@dimen/margin_1x</item>
+        <item name="android:paddingLeft">@dimen/margin_1x</item>
+        <item name="android:background">@color/colorDarkBlue</item>
+    </style>
+
+    <style name="user_profile2_textview">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorLightGreen</item>
+        <item name="android:paddingTop">@dimen/margin_2x</item>
+        <item name="android:paddingBottom">@dimen/margin_2x</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_marginRight">@dimen/gap_1x</item>
+    </style>
+
+    <style name="user_profile2_textview_new">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorLightGreen</item>
+        <item name="android:paddingTop">@dimen/margin_2x</item>
+        <item name="android:paddingBottom">@dimen/margin_2x</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_marginRight">@dimen/gap_1x</item>
+    </style>
+
+    <!--listview item 裡面的按鈕-->
+    <style name="listview_item_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@drawable/listview_item_button_textcolor</item>
+        <item name="android:background">@drawable/listview_item_button_bg</item>
+        <item name="android:layout_margin">@dimen/margin_1x</item>
+        <item name="android:layout_centerVertical">true</item>
+        <!--<item name="android:textSize">@dimen/textsize_1x</item>-->
+    </style>
+
+    <style name="listview_item_buttons">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/margin_1x</item>
+        <item name="android:background">@drawable/listview_item</item>
+    </style>
+
+    <style name="button_unit_test">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="image_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,145 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.startek.biota.app.fragments.UserManagerFragment1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_2x">
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:src="@drawable/logo"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                style="@style/image_button"/>
+
+            <ImageView
+                android:id="@+id/buttonBack"
+                android:src="@drawable/button_back"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                style="@style/image_button"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingRight="@dimen/margin_2x"
+            android:paddingLeft="@dimen/margin_2x"
+            android:paddingBottom="@dimen/margin_2x">
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:width="0dp"
+                android:layout_weight="1"
+                android:hint="@string/editTextSearch"
+                android:textColorHint="@android:color/transparent"
+                style="@style/navigation_edittext" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textinputborder"
+                android:src="@drawable/icon_search" />
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:text="@string/buttonAdd"
+                style="@style/navigation_button_green" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <!--ListView標頭-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labelName"
+                    android:text="@string/labelName"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="@style/listview_header" />
+
+                <TextView
+                    android:id="@+id/labelEmployeeId"
+                    android:text="@string/labelEmployeeIdC"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="@style/listview_header" />
+
+                <TextView
+                    android:id="@+id/labelTitle"
+                    android:text="@string/labelTitle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="@style/listview_header" />
+
+                <TextView
+                    android:id="@+id/labelAccessDatetime"
+                    android:text="@string/labelAccessDatetime"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    style="@style/listview_header" />
+
+                <TextView
+                    android:id="@+id/labelNfcCount"
+                    android:text="@string/labelNfcCount"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="@style/listview_header" />
+
+                <TextView
+                    android:id="@+id/labelFingerprintCount"
+                    android:text="@string/labelFingerprintCount"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    style="@style/listview_header" />
+
+                <TextView
+                    android:id="@+id/labelAction"
+                    android:text="@string/labelAction"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    style="@style/listview_header" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/listview_item"></ListView>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

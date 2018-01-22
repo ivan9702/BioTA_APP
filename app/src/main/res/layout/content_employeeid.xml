@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_1x"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/labelEmployeeId"
+            android:text="@string/label_employee_id"
+            android:layout_marginBottom="@dimen/margin_1x"
+            style="@style/employee_input_label" />
+
+        <TextView
+            android:id="@+id/textViewEmployeeId"
+            android:text="0327"
+            style="@style/employee_input_textview" />
+
+    </LinearLayout>
+
+
+    <TableLayout style="@style/employee_input_buttons">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/keyboard1"
+                android:text="1"
+                style="@style/employee_input_button1" />
+
+            <Button
+                android:id="@+id/keyboard2"
+                android:text="2"
+                style="@style/employee_input_button2" />
+
+            <Button
+                android:id="@+id/keyboard3"
+                android:text="3"
+                style="@style/employee_input_button1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/keyboard4"
+                android:text="4"
+                style="@style/employee_input_button2" />
+
+            <Button
+                android:id="@+id/keyboard5"
+                android:text="5"
+                style="@style/employee_input_button1" />
+
+            <Button
+                android:id="@+id/keyboard6"
+                android:text="6"
+                style="@style/employee_input_button2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/keyboard7"
+                android:text="7"
+                style="@style/employee_input_button1" />
+
+            <Button
+                android:id="@+id/keyboard8"
+                android:text="8"
+                style="@style/employee_input_button2" />
+
+            <Button
+                android:id="@+id/keyboard9"
+                android:text="9"
+                style="@style/employee_input_button1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/keyboardC"
+                android:text="C"
+                style="@style/employee_input_button2" />
+
+            <Button
+                android:id="@+id/keyboard0"
+                android:text="0"
+                style="@style/employee_input_button1" />
+
+            <Button
+                android:id="@+id/keyboardBack"
+                android:text="\u2190"
+                style="@style/employee_input_button2" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

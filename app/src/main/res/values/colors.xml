@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- grayscale -->
+    <color name="white"     >#FFFFFF</color>
+    <color name="gray_light">#DBDBDB</color>
+    <color name="gray"      >#939393</color>
+    <color name="gray_dark" >#5F5F5F</color>
+    <color name="black"     >#323232</color>
+
+    <!-- basic colors -->
+    <color name="green">#27D34D</color>
+    <color name="blue">#2A91BD</color>
+    <color name="orange">#FF9D2F</color>
+    <color name="red">#FF432F</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorActivity">#BED0F7</color>
+    <color name="colorAlert">#2786ae</color>
+
+    <color name="colorButton1">#0B5DA7</color>
+    <color name="colorButton2">#0B5DA7</color>
+
+
+    <color name="colorDarkBlue">#5894CB</color>
+    <color name="colorGridline">#1470bc</color>
+
+    <color name="colorRow1">#CED7E7</color>
+    <color name="colorRow2">#E8ECF5</color>
+
+
+    <color name="colorRed">#FA1C26</color>
+    <color name="colorRed1">#FA1C26</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorFocus">#737373</color>
+
+    <color name="colorToggleOn">#FCAF20</color>
+    <color name="colorToggleOnPressed">#c2840f</color>
+    <color name="colorToggleOff">#E5E5E5</color>
+    <color name="colorToggleOffPressed">#9f9d9d</color>
+
+
+
+    <color name="colorBackgroundAttendence">#1689c6</color>
+    <color name="colorBackgroundAbsence">#115ea9</color>
+    <color name="colorTextAttendence">@android:color/white</color>
+    <color name="colorTextAbsence">#1891e2</color>
+
+    <!--新增按鈕的顏色-->
+    <color name="colorGreen1">#9ec81a</color>
+
+    <!--listview header color-->
+    <color name="colorLightBlue">#1b89c5</color>
+
+    <color name="colorSplitterAnnouncement">#f0a6c7</color>
+    <color name="colorSplitterReminder">#fac919</color>
+    <color name="colorSplitterTeamStatus">#9ec81a</color>
+
+    <color name="colorLightBule1">#249acd</color>
+
+    <color name="colorEmployee">#157dcd</color>
+    <color name="colorNameAndDept">#118DE3</color>
+
+    <color name="colorDivider">#1768a5</color>
+
+    <!-- activity_function_list 按鈕顏色-->
+    <color name="colorGreen">#6FB51E</color>
+    <color name="colorLightGreen">#D0E26E</color>
+    <color name="colorOrange">#F1B100</color>
+    <color name="colorLightOrange">#FFF100</color>
+    <color name="colorPink">#B3146E</color>
+    <color name="colorLightPink">#F0A2C5</color>
+
+    <color name="colorFingerprintBoder">#11619b</color>
+
+</resources>

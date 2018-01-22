@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string name="android">zh-rTW</string>
+	<string name="app_name">星友門禁系統</string>
+	<string name="common_transmitting">通信中..</string>
+	<string name="intro_message">This is a simple app to read various tags (NDEF, RFID, FeliCa, ISO 14443, etc).\n\nYou use it by holding a tag/card against the back of your device.\n\nPlease let me know if you want me to change how the data is displayed. Also send me an e-mail (adam@anyro.se) if you have any problems with the app and I\'ll let you know when I\'ve fixed it. You can also see the source code and report issues at https://github.com/nadam/nfc-reader.\n\nIf you can\'t read any tag, please try some of the other NFC apps on Google Play and let me know if this app is the only one not working. Thanks!\n\n/Adam</string>
+	<string name="error">Error</string>
+	<string name="no_nfc">No NFC found on this device</string>
+	<string name="nfc_disabled">NFC is not enabled. Please go to the wireless settings to enable it.</string>
+	<string name="button_setting">設定</string>
+	<string name="label_employee_id">Employee ID</string>
+	<string name="label_dept">DEPT</string>
+	<string name="label_name_and_dept">Name / Dept</string>
+	<string name="label_teamstatus">Team Status</string>
+	<string name="label_reminder">Reminder</string>
+	<string name="label_announcement">Announcement</string>
+	<string name="header_reminder_1">Subject</string>
+	<string name="header_reminder_2">tricker</string>
+	<string name="header_reminder_3">Time</string>
+	<string name="header_announcement_1">Subject</string>
+	<string name="header_announcement_2">Announcer</string>
+	<string name="header_announcement_3">Time</string>
+	<string name="buttonDevice">門禁機</string>
+	<string name="buttonUserManager">使用者管理</string>
+	<string name="buttonLogging">運行記錄</string>
+	<string name="buttonSetting">系統設定</string>
+	<string name="buttonSyncData">手動同步資料</string>
+	<string name="buttonFingerprint">指紋機</string>
+	<string name="buttonFingerprintFormat" formatted="false">指紋機\n%s</string>
+	<string name="buttonDeviceFormat" formatted="false">門禁機\n%s</string>
+	<string name="buttonBack">返回</string>
+	<string name="buttonAdd">新增</string>
+	<string name="editTextSearch">搜尋欄</string>
+	<string name="labelName">姓名</string>
+	<string name="labelEmployeeIdC">工號</string>
+	<string name="labelTitle">職稱</string>
+	<string name="labelAction">操作</string>
+	<string name="labelFingerprintCount">指紋</string>
+	<string name="labelNfcCount">門禁卡</string>
+	<string name="labelAccessDatetime">上次進入</string>
+	<string name="actionEdit">編輯</string>
+	<string name="actionDelete">刪除</string>
+	<string name="actionPreviousParameter">前一次</string>
+	<string name="actionCreate">建檔</string>
+	<string name="actionDefaultParameter">預設值</string>
+	<string name="buttonSave">儲存</string>
+	<string name="buttonEdit">編輯</string>
+	<string name="buttonNext">新增下一筆</string>
+	<string name="labelBirthday">生日</string>
+	<string name="labelGender">性別</string>
+	<string name="labelBloodType">血型</string>
+	<string name="labelFingerprint">指紋</string>
+	<string name="buttonDelete">刪除</string>
+	<string name="buttonFinger1L">左拇指</string>
+	<string name="buttonFinger1R">右拇指</string>
+	<string name="buttonFinger2L">左食指</string>
+	<string name="buttonFinger2R">右食指</string>
+	<string name="buttonFinger3L">左中指</string>
+	<string name="buttonFinger3R">右中指</string>
+	<string name="buttonFinger4L">左無名指</string>
+	<string name="buttonFinger4R">右無名指</string>
+	<string name="buttonFinger5L">左小指</string>
+	<string name="buttonFinger5R">右小指</string>
+	<string name="buttonClear">清除</string>
+	<string name="buttonAccessControl">門禁控制</string>
+	<string name="buttonSyncServer">主機同步</string>
+	<string name="buttonDataMaintain">資料維護</string>
+	<string name="buttonUserInOut">人員進出</string>
+	<string name="labelDatetime">時間</string>
+	<string name="labelEvent">事件</string>
+	<string name="labelOperator">操作者</string>
+	<string name="labelDescription">詳細描述</string>
+	<string name="labelResult">操作結果</string>
+	<string name="labelDeviceId">產品識別碼</string>
+	<string name="labelCompanyId">廠商識別碼</string>
+	<string name="labelProduct">產品名稱</string>
+	<string name="labelUpdatedtime">資料更新時間</string>
+	<string name="labelAddress">位置識別碼</string>
+	<string name="labelCompany">製造商</string>
+	<string name="labelVersion">版本</string>
+	<string name="labelSetting">設定</string>
+	<string name="labelPreviousParameter">前一次參數</string>
+	<string name="labelAction1">還原操作</string>
+	<string name="buttonUserInOut1">打卡設定</string>
+	<string name="buttonSync">同步</string>
+	<string name="buttonReload">重新載入</string>
+	<string name="labelAction2">動作</string>
+	<string name="labelClassName">資料表</string>
+	<string name="labelJson">資料內容</string>
+	<string name="labelState">結果</string>
+	<string name="no_connected">(未連接)</string>
+	<string name="connected">(已連接)</string>
+	<string name="error_network_unavailable">無網絡連線</string>
+	<string name="error_webservice_WsAnnouncementR" formatted="false">取得 announcements 失敗, %s</string>
+	<string name="error_webservice_WsReminderR" formatted="false">取得 reminders 失敗, %s</string>
+	<string name="error_webservice_WsHumanR1" formatted="false">取得 human 失敗, %s</string>
+	<string name="error_webservice_WsHumanR2" formatted="false">取得指定的 human 失敗, %s</string>
+	<string name="error_webservice_WsHumanU" formatted="false">更新指定的 human 失敗, %s</string>
+	<string name="error_webservice_WsHumanC" formatted="false">建立指定的 human 失敗, %s</string>
+	<string name="error_webservice_WsHumanD" formatted="false">刪除指定的 human 失敗, %s</string>
+	<string name="error_webservice_WsNfcD">刪除指定的 nfc card 失敗, %s</string>
+	<string name="error_webservice_WsNfcR">取得指定的 nfc card 失敗, %s</string>
+	<string name="error_webservice_WsNfcC">建立指定的 nfc card 失敗, %s</string>
+	<string name="error_webservice_WsFingerprintD">刪除指定的 fingerprint 失敗, %s</string>
+	<string name="error_webservice_WsFingerprintR">取得指定的 fingerprint 失敗, %s</string>
+	<string name="error_webservice_WsFingerprintC">建立指定的 fingerprint 失敗, %s</string>
+	<string name="error_webservice_WsApDeviceC" formatted="false">建立指定的 ApDevice 失敗, %s</string>
+	<string name="error_webservice_WsApDeviceR1" formatted="false">取得 ApDevice 失敗, %s</string>
+	<string name="error_webservice_WsApDeviceR2" formatted="false">取得指定的 ApDevice 失敗, %s</string>
+	<string name="error_webservice_WsApDeviceU" formatted="false">更新指定的 ApDevice 失敗, %s</string>
+	<string name="error_webservice_WsApDeviceD" formatted="false">刪除指定的 ApDevice 失敗, %s</string>
+	<string name="error_webservice_WsFingerprintDeviceC" formatted="false">建立指定的 FingerprintDevice 失敗, %s</string>
+	<string name="error_webservice_WsFingerprintDeviceR" formatted="false">取得指定的 FingerprintDevice 失敗, %s</string>
+	<string name="error_webservice_WsFingerprintDeviceU" formatted="false">更新指定的 FingerprintDevice 失敗, %s</string>
+	<string name="error_webservice_WsFingerprintDeviceD" formatted="false">刪除指定的 FingerprintDevice 失敗, %s</string>
+	<string name="error_webservice_WsMatchLogRi">建立指紋資料記錄(Ri)失敗，原因：%s</string>
+	<string name="error_webservice_WsMatchLogRv">建立指紋資料記錄(Rv)失敗，原因：%s</string>
+	<string name="error_input_required" formatted="false">%s不能為空字串</string>
+	<string name="error_employeeid_limit" formatted="false">%s必為 %d 碼數字</string>
+	<string name="error_no_nfc">至少需要一筆悠遊卡資料</string>
+	<string name="error_no_fingerprint">至少需要一筆指紋資料</string>
+	<string name="ok">確定</string>
+	<string name="canel">取消</string>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="warn_title_no_manager_data">無任何管理者資料</string>
+	<string name="warn_content_no_manager_data">請先新增管理者</string>
+	<string name="warn_title_no_user_data">無任何使用者資料</string>
+	<string name="warn_content_no_user_data">請先新增使用者</string>
+	<string name="warn_title_need_sync_data">尚未執行資料同步</string>
+	<string name="warn_content_no_need_sync_data">是否暫時忽略同步作業</string>
+	<string name="warn_title_exit">離開應用程式</string>
+	<string name="warn_content_exit">是否確定離開應用程式</string>
+	<string name="info_title_no_need_sync_data">同步資料</string>
+	<string name="info_content_no_need_sync_data">無需同步任何資料</string>
+	<string name="warn_title_delete_user">刪除使用者</string>
+	<string name="warn_content_delete_user" formatted="false">是否確定刪除使用者(%s)</string>
+	<string name="warn_title_delete_nfc">刪除悠遊卡</string>
+	<string name="warn_content_delete_nfc">是否確定刪除悠遊卡(%s)</string>
+	<string name="warn_title_ignore_create_user">新增使用者</string>
+	<string name="warn_title_ignore_update_user">編輯使用者</string>
+	<string name="warn_content_ignore_create_user">尚未儲存使用者，是否確定離開</string>
+	<string name="warn_title_delete_runninglogs">刪除運行記錄</string>
+	<string name="warn_content_delete_runninglogs">是否刪除運行記錄</string>
+	<string name="warn_title_save_setting">儲存設定</string>
+	<string name="warn_content_save_setting">是否儲存設定</string>
+	<string name="warn_title_ignore_create_fingerprint">編輯指紋</string>
+	<string name="warn_content_ignore_create_fingerprint">尚未儲存指紋資料，是否確定離開</string>
+	<string name="buttonNextUser">下一位</string>
+	<string name="male">male</string>
+	<string name="female">female</string>
+	<string name="editor_title_prefix">請輸入</string>
+	<string name="textViewAddNfc">請將悠遊卡靠近手機裝置</string>
+	<string name="labelNfc">門禁卡</string>
+	<string name="error_nfc_has_been_used_byself" formatted="false">您已經註冊此張悠遊卡(%s)</string>
+	<string name="error_nfc_has_been_used_other" formatted="false">悠遊卡(%s)已經被使用者(%s)註冊</string>
+	<string name="error_nfc_count_limit" formatted="false">可註冊悠遊卡已達最大張數(%d張)</string>
+	<string name="error_duplicate_bind_id" formatted="false">輸入工號%s已被使用者%s所使用</string>
+	<string name="buttonSacn">掃描</string>
+	<string name="sensor_is_not_connected">尚未連接指紋機</string>
+	<string name="sensor_please_press">請按壓指紋機</string>
+	<string name="sensor_capture_start">開始擷取指紋</string>
+	<string name="sensor_capture_finish">完成擷取指紋</string>
+	<string name="sensor_remove_finger">請將手指從指紋機上移開</string>
+	<string name="sensor_enroll_success">指紋註冊成功</string>
+	<string name="sensor_enroll_failure" formatted="false">指紋註冊失敗，原因：%s</string>
+	<string name="sensor_enroll_low_quality">掃描品質過差</string>
+	<string name="sensor_enroll_not_complete">註冊動作尚未完成</string>
+	<string name="sensor_invalid_input_handle">無效的 Input Handle</string>
+	<string name="sensor_capture_timeout">掃描作業逾時</string>
+	<string name="sensor_stop_immediately">立即停止掃描作業</string>
+	<string name="sensor_verify_success">指紋驗證成功</string>
+	<string name="sensor_verify_failure">指紋驗證失敗</string>
+	<string name="sensor_verify_success_detail" formatted="false">指紋驗證成功，原因：分數大於等於下限(%d &gt;= %d)</string>
+	<string name="sensor_verify_failure_detail" formatted="false">指紋驗證失敗，原因：分數低於驗證下限(%d &lt; %d)</string>
+	<string name="sensor_verify_failure_no_dat_file">查無指紋資料</string>
+	<string name="sensor_in_used">正在進行驗證程序，請稍後</string>
+	<string name="actionCreate1">新增</string>
+	<string name="actionUpdate">更新</string>
+	<string name="textViewFingerprint">Fingerprint\nWaiting</string>
+	<string name="textViewFingerprintWithCountDown" formatted="false">Fingerprint Waiting (%d)</string>
+	<string name="no_fingerprint_sensor">目前無指紋機可用</string>
+	<string name="sensor_enrolling">請等待掃描指紋結束</string>
+	<string name="no_human_found">找不到對應使用者資訊</string>
+	<string name="sensor_verify_start">開始進行使用者驗證</string>
+	<string name="result_success">成功</string>
+	<string name="result_failure">失敗</string>
+	<string name="runninglog_event_verification">登入驗證</string>
+	<string name="runninglog.description.verification">登入驗證</string>
+	<string name="runninglog_event_createHuman.remote">建立遠端使用者</string>
+	<string name="runninglog_event_createHuman.local">建立本機使用者</string>
+	<string name="runninglog_event_updateHuman.remote">更新遠端使用者</string>
+	<string name="runninglog_event_updateHuman.local">更新本機使用者</string>
+	<string name="runninglog_event_deleteHuman.remote">刪除遠端使用者</string>
+	<string name="runninglog_event_deleteHuman.local">刪除本機使用者</string>
+	<string name="runninglog_event_savesetting">更新系統設定</string>
+	<string name="runninglog_event_savesetting_success" formatted="false">『%s』更新成功(%s -&gt; %s)</string>
+	<string name="runninglog_event_savesetting_failure" formatted="false">『%s』更新失敗(%s -&gt; %s)，原因：%s</string>
+	<string name="runninglog_event_syncdata" formatted="false">手動同步資料 - %s%s</string>
+	<string name="runninglog_event_exportdata">發送EMAIL匯出資料</string>
+	<string name="runninglog_event_exportdata_success" formatted="false">匯出資料成功(%s)</string>
+	<string name="runninglog_event_exportdata_failure" formatted="false">匯出資料失敗，原因：%s，StackTrace：%s</string>
+	<string name="runninglog_event_createMatchLog_remote">建立遠端 MatchLog</string>
+	<string name="runninglog_event_createMatchLog_local">建立本機 MatchLog</string>
+	<string name="createHuman_remote_success" formatted="false">建立遠端使用者(%s)成功</string>
+	<string name="createHuman_remote_failure1" formatted="false">建立遠端使用者(%s)失敗，原因：%s</string>
+	<string name="createHuman_remote_failure2" formatted="false">建立遠端使用者(%s)成功，但建立相關悠遊卡與指紋資料失敗，原因：%s</string>
+	<string name="createHuman_local_success" formatted="false">建立本機使用者(%s)資料成功</string>
+	<string name="createHuman_local_failure" formatted="false">建立本機使用者(%s)失敗，原因：%s</string>
+	<string name="updateHuman_remote_success" formatted="false">更新遠端使用者(%s)成功</string>
+	<string name="updateHuman_remote_failure" formatted="false">更新遠端使用者(%s)失敗，原因：%s</string>
+	<string name="updateHuman_local_success" formatted="false">更新本機使用者(%s)資料成功</string>
+	<string name="updateHuman_local_failure" formatted="false">更新本機使用者(%s)失敗，原因：%s</string>
+	<string name="deleteHuman_local_success" formatted="false">刪除本機使用者(%s)資料成功</string>
+	<string name="deleteHuman_local_failure" formatted="false">刪除本機使用者(%s)失敗，原因：%s</string>
+	<string name="deleteHuman_remote_success" formatted="false">刪除本機使用者(%s)資料成功</string>
+	<string name="deleteHuman_remote_failure" formatted="false">刪除本機使用者(%s)失敗，原因：%s</string>
+	<string name="press_next_user">請點擊【下一位】進行下一位使用者認證</string>
+	<string name="client_action_identify">client_action_identify</string>
+	<string name="client_action_verify">client_action_verify</string>
+	<string name="email_detail">發送郵件(共%d筆記錄)</string>
+	<string name="readonly_cannot_insert_card">唯讀模式不能新增門禁卡</string>
+	<string name="readonly_cannot_edit_fingerprint">唯讀模式不能編輯指紋</string>
+	<string name="readonly_cannot_edit_profile">唯讀模式不能編輯使用者資料</string>
+	<string name="wait_for_verify_complete">請等待驗證完成</string>
+	<string name="nfc_not_support">手機裝置不支援 NFC 功能</string>
+	<string name="nfc_is_disable">手機裝置尚未開啟 NFC 功能</string>
+	<string name="email_is_empty">尚未指定EMAIL</string>
+	<string name="email_is_invalid" formatted="false">無效EMAIL(%s)</string>
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="usb_detached">USB裝置被移除</string>
+</resources>

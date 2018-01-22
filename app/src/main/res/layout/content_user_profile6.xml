@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--指紋建檔資料-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/labelWhich"
+        android:text="左手食指"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="@dimen/margin_2x"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.startek.biota.app.widget.SquareRelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_1x"
+            android:layout_marginRight="@dimen/margin_1x">
+
+            <RelativeLayout
+                android:id="@+id/progressBarLayout0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fingerprint_container"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true">
+                <ProgressBar
+                    android:id="@+id/progressBar0"
+                    android:indeterminate="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageViewFingerprint0"
+                app:civ_border="true"
+                app:civ_border_color="@color/colorFingerprintBoder"
+                app:civ_border_width="@dimen/fingerprint_image_border"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+        </com.startek.biota.app.widget.SquareRelativeLayout>
+
+        <com.startek.biota.app.widget.SquareRelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_1x"
+            android:layout_marginRight="@dimen/margin_1x">
+
+            <RelativeLayout
+                android:id="@+id/progressBarLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fingerprint_container"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true">
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    android:indeterminate="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageViewFingerprint1"
+                app:civ_border="true"
+                app:civ_border_color="@color/colorFingerprintBoder"
+                app:civ_border_width="@dimen/fingerprint_image_border"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+        </com.startek.biota.app.widget.SquareRelativeLayout>
+
+        <com.startek.biota.app.widget.SquareRelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_1x"
+            android:layout_marginRight="@dimen/margin_1x">
+
+            <RelativeLayout
+                android:id="@+id/progressBarLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fingerprint_container"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true">
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    android:indeterminate="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageViewFingerprint2"
+                app:civ_border="true"
+                app:civ_border_color="@color/colorFingerprintBoder"
+                app:civ_border_width="@dimen/fingerprint_image_border"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+        </com.startek.biota.app.widget.SquareRelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

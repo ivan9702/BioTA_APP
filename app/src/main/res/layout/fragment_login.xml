@@ -1,0 +1,117 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.startek.biota.app.fragments.LoginFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--左側畫面-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_2x">
+                <include layout="@layout/content_logo" />
+            </LinearLayout>
+
+            <include layout="@layout/content_employeeid" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutUserProfiler1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include layout="@layout/content_user_profile1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"></View>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="match_parent">
+                    <include layout="@layout/content_fingerprinter" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"></View>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/margin_2x"
+            android:layout_height="match_parent"
+            android:background="@drawable/left_shadow" />
+
+        <!--右側畫面-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="4.5"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_2x">
+                <include layout="@layout/content_datetime" />
+            </LinearLayout>
+
+            <!--TeamStatus-->
+            <LinearLayout
+                android:id="@+id/linearLayoutUserProfiler2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_2x">
+                <include layout="@layout/content_user_profile2" />
+            </LinearLayout>
+
+            <!--Reminder-->
+            <LinearLayout
+                android:id="@+id/linearLayoutReminder"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <include layout="@layout/content_reminder" />
+            </LinearLayout>
+
+            <!--Announcement-->
+            <LinearLayout
+                android:id="@+id/linearLayoutAnnouncement"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <include
+                    layout="@layout/content_announcement" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

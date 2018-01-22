@@ -1,0 +1,151 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context="com.startek.biota.app.fragments.SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_2x">
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:src="@drawable/logo"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                style="@style/image_button"/>
+
+            <ImageView
+                android:id="@+id/buttonBack"
+                android:src="@drawable/button_back"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                style="@style/image_button"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingRight="@dimen/margin_2x"
+            android:paddingLeft="@dimen/margin_2x"
+            android:paddingBottom="@dimen/margin_2x">
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:width="0dp"
+                android:layout_weight="1"
+                android:hint="@string/editTextSearch"
+                android:textColorHint="@android:color/transparent"
+                style="@style/navigation_edittext" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textinputborder"
+                android:src="@drawable/icon_search" />
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:text="@string/buttonSave"
+                style="@style/navigation_button_green" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingRight="@dimen/margin_2x"
+            android:paddingLeft="@dimen/margin_2x"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_1x">
+
+                <!--ListView標頭-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/labelSetting"
+                        android:text="@string/labelSetting"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/listview_header" />
+                    <TextView
+                        android:id="@+id/labelParameter"
+                        android:text="參數"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/listview_header" />
+                    <TextView
+                        android:id="@+id/labelPreviousParameter"
+                        android:text="@string/labelPreviousParameter"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/listview_header" />
+                    <TextView
+                        android:id="@+id/labelAction"
+                        android:text="@string/labelAction1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/listview_header" />
+
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="match_parent"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:layout_height="0dp"
+                    android:paddingBottom="@dimen/margin_2x"
+                    android:layout_weight="1"
+                    android:background="@drawable/listview_item"></ListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_1x">
+
+                <Button
+                    android:id="@+id/buttonSyncServer"
+                    android:text="@string/buttonSyncServer"
+                    style="@style/toggle_button" />
+
+                <Button
+                    android:id="@+id/buttonAccessControl"
+                    android:text="@string/buttonAccessControl"
+                    style="@style/toggle_button" />
+
+                <Button
+                    android:id="@+id/buttonUserInOut"
+                    android:text="@string/buttonUserInOut1"
+                    style="@style/toggle_button" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

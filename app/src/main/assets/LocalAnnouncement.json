@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "createdAt": "2016-07-11T01:55:38.186Z",
+      "updatedAt": "2016-07-11T01:55:38.186Z",
+      "subject_pk": "5782fc9a48bc0af23534ef54",
+      "subject": "local announcement",
+      "tricker": "Tori",
+      "time": "2016-07-06T09:49:00.000Z",
+      "style": "announcement"
+    },
+    {
+      "createdAt": "2016-07-11T03:02:19.636Z",
+      "updatedAt": "2016-07-11T03:02:19.636Z",
+      "subject_pk": "57830c3b48bc0af2353501fd",
+      "subject": "local announcement",
+      "tricker": "Daily Check",
+      "time": "2016-07-06T09:49:00.000Z",
+      "style": "announcement"
+    }
+  ],
+  "result": {
+    "success": true,
+    "message": ""
+  },
+  "client": {
+    "resp": ""
+  }
+}

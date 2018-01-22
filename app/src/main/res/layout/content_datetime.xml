@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="@dimen/margin_2x">
+
+        <Button
+            android:id="@+id/buttonNextUser"
+            android:text="@string/buttonNextUser"
+            style="@style/navigation_button_green" />
+
+        <ImageView
+            android:id="@+id/buttonSetting"
+            android:layout_marginLeft="@dimen/margin_2x"
+            android:src="@drawable/button_setting_normal"
+            android:layout_gravity="center_vertical"
+            style="@style/image_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:text="DATE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="@dimen/margin_2x" />
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:text="TIME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_toEndOf="@+id/textViewDate" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

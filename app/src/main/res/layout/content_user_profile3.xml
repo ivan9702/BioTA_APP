@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--使用者基本資料-->
+<TableLayout
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:id="@+id/rowName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/tablerow">
+        <TextView
+            android:id="@+id/labelName"
+            android:text="@string/labelName"
+            style="@style/user_profile3_header" />
+        <TextView
+            android:id="@+id/textViewName"
+            android:text="蘇國棟"
+            style="@style/user_profile3_item" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowEmployeeId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/tablerow">
+        <TextView
+            android:id="@+id/labelEmployeeId"
+            android:text="@string/labelEmployeeIdC"
+            style="@style/user_profile3_header" />
+        <TextView
+            android:id="@+id/textViewEmployeeId"
+            android:text="1234"
+            style="@style/user_profile3_item" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/tablerow">
+        <TextView
+            android:id="@+id/labelTitle"
+            android:text="@string/labelTitle"
+            style="@style/user_profile3_header" />
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:text="PG"
+            style="@style/user_profile3_item" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/tablerow">
+        <TextView
+            android:id="@+id/labelBirthday"
+            android:text="@string/labelBirthday"
+            style="@style/user_profile3_header" />
+        <TextView
+            android:id="@+id/textViewBirthday"
+            android:text="20160329"
+            style="@style/user_profile3_item" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowGender"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/tablerow">
+        <TextView
+            android:id="@+id/labelGender"
+            android:text="@string/labelGender"
+            style="@style/user_profile3_header" />
+        <TextView
+            android:id="@+id/textViewGender"
+            android:text="男"
+            style="@style/user_profile3_item" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowBloodType"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/tablerow">
+        <TextView
+            android:id="@+id/labelBloodType"
+            android:text="@string/labelBloodType"
+            style="@style/user_profile3_header" />
+        <TextView
+            android:id="@+id/textViewBloodType"
+            android:text="A"
+            style="@style/user_profile3_item" />
+    </TableRow>
+
+</TableLayout>

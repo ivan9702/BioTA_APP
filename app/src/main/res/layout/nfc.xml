@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_2x"
+        android:background="@drawable/navigation_button_background_green">
+        <TextView
+            android:id="@+id/textViewTagId"
+            android:text="acb0cda1b3"
+            style="@style/user_profile5_tagId" />
+        <Button
+            android:id="@+id/buttonDelete"
+            android:text="@string/buttonDelete"
+            style="@style/user_profile5_buttonDelete" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
